@@ -15,3 +15,10 @@ for (let i = 0; i < packingList.length; i++) {
 }
 
 packingList[3]; //returns pans because arrays start at 0
+
+console.log("kitchen stuff to pack");
+let i = 0;
+while (i < packingList.length) {
+  console.log(packingList[i]);
+  i++;
+}
